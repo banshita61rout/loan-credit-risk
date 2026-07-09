@@ -8,9 +8,6 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen)
-![Repo Size](https://img.shields.io/github/repo-size/banshita61rout/loan-approval-prediction)
-![Last Commit](https://img.shields.io/github/last-commit/banshita61rout/loan-approval-prediction)
-![Issues](https://img.shields.io/github/issues/banshita61rout/loan-approval-prediction)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## 📌 Project Overview

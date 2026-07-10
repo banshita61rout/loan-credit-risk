@@ -12,7 +12,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes loan application data and builds a Machine Learning model to predict whether a loan application will be **Approved** or **Rejected** based on an applicant's financial and personal information.
+This project analyzes loan application data and builds a Machine Learning model to predict whether a loan application will be **Approved** or **Rejected** based on an applicant's financial and personal information.Implemented Binary Classification along with EDA, Feature Engineering & Model Evaluation with (Precision, Recall, F1 Scores)
 
 ---
 

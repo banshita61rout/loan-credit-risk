@@ -19,7 +19,7 @@
 **https://loan-credit-risk-ml.streamlit.app/**
 
 ---
-![Application Preview](assets/loan-credit-risk-ml.streamlit.app_(2).png)
+![Application Preview](assets/approved.png)
 ![Application Preview](assets/loan-credit-risk-ml.streamlit.app_.png)
 
 ##  Project Overview

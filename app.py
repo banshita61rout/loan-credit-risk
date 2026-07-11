@@ -37,10 +37,19 @@ def add_engineered_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-st.title("🏦 Loan Approval Predictor")
+st.title(" Loan Credit Risk")
 st.write(
     "Enter applicant details below to predict whether a loan application "
     "would be **Approved** or **Rejected**."
+)
+ 
+st.info(
+    " **Dataset range:** This model was trained on applicant incomes between "
+    "₹2,009–₹19,988, loan amounts between ₹1,015–₹39,995, credit scores "
+    "550–799, and collateral/savings up to ~₹50,000. Predictions are most "
+    "reliable for inputs within these ranges — values far outside them "
+    "(e.g. loan amounts in lakhs) are out-of-distribution for the model "
+    "and may produce unreliable results."
 )
 
 with st.sidebar:

@@ -1,4 +1,4 @@
-# 🏦 Loan Approval Prediction
+# 🏦 Loan Credit Risk Prediction
 
 ![Python](https://img.shields.io/badge/Python-Expert-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
@@ -9,8 +9,20 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
 
-## 📌 Project Overview
+---
+##  Live Demo
+
+ **Try the deployed application here:**
+
+**https://loan-credit-risk-ml.streamlit.app/**
+
+---
+![Application Preview](assets/loan-credit-risk-ml.streamlit.app_(2).png)
+![Application Preview](assets/loan-credit-risk-ml.streamlit.app_.png)
+
+##  Project Overview
 
 This project analyzes loan application data and builds a Machine Learning model to predict whether a loan application will be **Approved** or **Rejected** based on an applicant's financial and personal information.Implemented Binary Classification along with EDA, Feature Engineering & Model Evaluation with (Precision, Recall, F1 Scores)
 
@@ -24,20 +36,22 @@ This project analyzes loan application data and builds a Machine Learning model 
 - Matplotlib
 - Seaborn
 - Scikit-Learn
+- Joblib
+- Streamlit
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Project Workflow
 
-The dataset was explored using:
-
-- Data Cleaning
-- Missing Value Analysis
-- Univariate Analysis
-- Bivariate Analysis
-- Correlation Heatmap
-- Outlier Detection
-- Feature Relationship Analysis
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Data Preprocessing
+6. Model Training
+7. Model Evaluation
+8. Loan Prediction
+9. Streamlit Deployment
 
 ---
 
@@ -66,15 +80,40 @@ The dataset was explored using:
 ## 📂 Project Structure
 
 ```
-Loan-Approval-Prediction/
+loan-credit-risk/
 │
-├── dataset/
-├── notebook.ipynb
+├── app.py
+├── loan_approval.ipynb (Notebook)
+├── model.pkl
+├── scaler.pkl
+├── requirements.txt
 ├── README.md
-└── .gitignore
+└── loan_approval_dataset.csv
 ```
 
 ---
+##  Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/banshita61rout/loan-credit-risk.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
 
 ## 📌 Future Improvements
 
@@ -85,4 +124,9 @@ Loan-Approval-Prediction/
 
 ---
 
+## 📸 Live Application
+
+ **Streamlit App:** https://loan-credit-risk-ml.streamlit.app/
+
+---
 ### ⭐ If you found this project useful, consider giving it a Star!

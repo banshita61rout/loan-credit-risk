@@ -153,3 +153,16 @@ if st.button("Predict Loan Approval", type="primary", use_container_width=True):
 
 st.divider()
 st.caption("Built with the Logistic Regression / KNN / Naive Bayes models trained in loan_approval.ipynb")
+with st.expander(" Future Scope"):
+    st.markdown(
+        "- **Expand the training data range** to cover real-world loan amounts "
+        "(up to several lakhs/crores) and incomes, so the model generalizes "
+        "beyond the current ₹2K–₹40K sample range.\n"
+        "- Add more training data across diverse applicant profiles to improve "
+        "generalization and reduce bias.\n"
+        "- Include out-of-range input detection/warnings directly on each field.\n"
+        "- Experiment with ensemble or gradient-boosted models (XGBoost, "
+        "LightGBM) for potentially better accuracy.\n"
+        "- Add model explainability (e.g. SHAP values) to show *why* a loan "
+        "was approved or rejected."
+    )

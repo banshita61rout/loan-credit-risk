@@ -43,7 +43,8 @@ st.write(
     "would be **Approved** or **Rejected**."
 )
  
-st.info(
+with st.expander("Note !!"):
+    st.markdown(
     " **Dataset range:** This model was trained on applicant incomes between "
     "₹2,009–₹19,988, loan amounts between ₹1,015–₹39,995, credit scores "
     "550–799, and collateral/savings up to ~₹50,000. Predictions are most "
